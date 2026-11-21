@@ -4,6 +4,8 @@ A simple digital clock project built using an **ESP32**, **DS3231 Real-Time Cloc
 
 The project displays the current time, date, and day of the week on the OLED screen. The DS3231 maintains time independently using its internal clock and backup battery, even when the ESP32 is powered off.
 
+![Final result on the breadboard](ESP32-RTC-DS3231.png)
+
 ## Features
 
 - Real-time clock using DS3231.
@@ -147,24 +149,6 @@ The display presents three main sections:
                        |
                   Backup Battery
 ```
-
-## Future Improvements
-
-Potential enhancements for future versions:
-
-- NTP synchronization over Wi-Fi.
-- Automatic timezone handling.
-- 12-hour / 24-hour display modes.
-- Temperature monitoring using DS3231.
-- Alarm functionality.
-- Custom OLED clock interface.
-- Wi-Fi configuration through a web interface.
-
-## License
-
-This project is open-source and available for educational and personal development purposes.
-
-Feel free to fork, modify, and improve it.
 
 ---
 
